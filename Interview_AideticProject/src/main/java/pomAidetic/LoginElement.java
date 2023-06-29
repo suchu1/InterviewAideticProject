@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 import utils.Utility;
 
 public class LoginElement extends Utility {
-	private WebDriver driver;
+	private WebDriver driver; 
 
 	@FindBy (xpath = "//button[text() = 'Accept All']")
 	private WebElement acceptAll ;
